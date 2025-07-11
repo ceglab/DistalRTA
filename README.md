@@ -19,6 +19,69 @@ This tiered analysis allowed for prioritization of VUS with predicted structural
 
 ---
 
+## 🧪 Results
+
+### Missense3D Predicts Structural Damage for Select Variants
+
+We evaluated thirteen non-synonymous variants of uncertain significance (VUS) using the **Missense3D** tool to predict their potential impact on protein structure.  
+The VUS analyzed were:
+
+- ATP6V0A4_p.Ser544Leu  
+- ATP6V1B1_p.Arg114Gln  
+- ATP6V1B1_p.Leu51Arg  
+- AVPR2_p.Arg248His  
+- CASR_p.Ser713Asn  
+- CLCN7_p.Asp603Tyr  
+- DLL1_p.Thr203Ala  
+- INVS_p.Ala763Thr  
+- PHEX_p.Ala15Thr  
+- SLC4A1_p.Asp902Val  
+- SLC34A1_p.Leu519Arg  
+- TMEM67_p.Leu437Phe  
+- TRIM8_p.Pro543Gln  
+
+Full Missense3D output results are provided in *Supplementary Table S1*.
+
+---
+
+### Variants Predicted to Cause Structural Damage
+
+Among these, two variants were predicted to cause structural damage:
+
+1. **ATP6V0A4_p.Ser544Leu**  
+   - Missense3D detected:
+     - A significant increase in steric clashes:  
+       🧱 *Clash score increased from 16.50 (wild-type) to 39.84 (mutant)*
+     - Disruption of buried hydrogen bonds:  
+       🔗 *Serine had a relative solvent accessibility (RSA) of 1.5% and was involved in stabilizing interactions that were lost upon mutation to leucine*
+
+   - 🔬 **Conclusion**: This suggests possible interference with protein folding or stability, potentially impairing function.
+
+2. **INVS_p.Ala763Thr**  
+   - Increased steric clashes observed:  
+     🧱 *Wild-type clash score: 24.24 → Mutant: 59.17*
+   - 🔬 **Conclusion**: Threonine may be poorly accommodated within the local structure.
+
+---
+
+### Variants Tolerated Structurally
+
+For the remaining nine VUS, Missense3D did **not** predict significant structural damage under default criteria, suggesting these may be structurally tolerated.
+
+---
+
+### DynaMut Analysis for Stability Impact
+
+To further assess the impact of structurally disruptive variants, we performed **DynaMut** analysis:
+
+- Quantified protein stability changes using **ΔΔG values**
+- Visualized structural models highlight:
+  - 💡 Changes in flexibility
+  - ⚡ Changes in interaction energetics
+
+These support the predictions made by Missense3D and help prioritize variants for **experimental validation** based on structural and thermodynamic effects.
+
+
 ## References
 
 - Ittisoponpisan S et al. 2019. Can Predicted Protein 3D Structures Provide Reliable Insights into whether Missense Variants Are Disease Associated? *J. Mol. Biol.* **431**:2197–2212. doi: [10.1016/J.JMB.2019.04.009](https://doi.org/10.1016/J.JMB.2019.04.009)
