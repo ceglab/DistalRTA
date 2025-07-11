@@ -1,6 +1,9 @@
 # DistalRTA
 DistalRTA VUS homology modelling results
 
+Distal renal tubular acidosis (dRTA) is a condition where the kidneys fail to properly excrete acid into the urine, leading to a buildup of acid in the blood (acidosis). This condition primarily affects the distal part of the kidney tubules, where the final acidification of urine occurs. 
+
+
 ## Methods
 
 For each gene harboring a variant of uncertain significance (VUS) resulting in a non-synonymous substitution, we retrieved the corresponding three-dimensional protein structure from the [AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk/) (release: March 2025).  
