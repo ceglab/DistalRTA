@@ -85,6 +85,13 @@ To further assess the impact of structurally disruptive variants, we performed *
 These support the predictions made by Missense3D and help prioritize variants for **experimental validation** based on structural and thermodynamic effects.
 
 
+
+
+
+### Dynamut prediction of ATP6V0A4 gene mutation Ser544Leu: The Δ Vibrational Entropy Energy prediction compared between Wild-Type and Mutant. Amino acids colored according to the vibrational entropy change upon mutation. BLUE represents a rigidification of the structure and RED a gain in flexibility.
+
+
+
 ## References
 
 - Ittisoponpisan S et al. 2019. Can Predicted Protein 3D Structures Provide Reliable Insights into whether Missense Variants Are Disease Associated? *J. Mol. Biol.* **431**:2197–2212. doi: [10.1016/J.JMB.2019.04.009](https://doi.org/10.1016/J.JMB.2019.04.009)
