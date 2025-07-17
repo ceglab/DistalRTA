@@ -85,8 +85,7 @@ To further assess the impact of structurally disruptive variants, we performed *
 These support the predictions made by Missense3D and help prioritize variants for **experimental validation** based on structural and thermodynamic effects.
 
 
-
-
+![Dynamut prediction of ATP6V0A4 gene mutation Ser544Leu](DynaMut/Diff_A_S544L_174689861142.png)
 
 ### Dynamut prediction of ATP6V0A4 gene mutation Ser544Leu: The Δ Vibrational Entropy Energy prediction compared between Wild-Type and Mutant. Amino acids colored according to the vibrational entropy change upon mutation. BLUE represents a rigidification of the structure and RED a gain in flexibility.
 
